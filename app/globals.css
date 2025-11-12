@@ -1,0 +1,55 @@
+/* app/globals.css */
+
+/* Reset i tło */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+/* KONTENER WIDEO W TLE */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Pokrycie całego ekranu */
+    z-index: -1; /* Umieszczenie pod całą resztą zawartości */
+    filter: brightness(0.6) grayscale(0.2); /* Przyciemnienie wideo, aby tekst był czytelny */
+}
+
+
+/* Styl dla całej sceny (dla centrowania zawartości) */
+.scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Kontener dla zawartości ekranu (np. obraz i tekst) */
+.screen-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Style tekstowe dla drugiego ekranu */
+.slogan-korozja {
+    font-size: 2rem;
+    margin-top: 15px;
+}

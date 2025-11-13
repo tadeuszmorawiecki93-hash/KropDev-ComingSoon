@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'KropDev-Coming-Soon',
-  description: 'Ziemia włoska do polski',
+  description: 'Oficjalna strona kanału kropeczki',
 };
 
 interface RootLayoutProps {
